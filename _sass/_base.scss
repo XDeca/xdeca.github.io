@@ -78,7 +78,6 @@ aside {
         color: $theme-primary;
         @include sans-serif-font;
         font-weight: 700;
-        text-transform: uppercase;
         &:hover,
         &:focus {
             color: darken($theme-primary, 10%);
@@ -88,7 +87,6 @@ aside {
         > li {
             > a,
             > a:focus {
-                text-transform: uppercase;
                 font-weight: 700;
                 font-size: 13px;
                 color: $theme-dark;
@@ -166,7 +164,6 @@ header {
         .header-content-inner {
             h1 {
                 font-weight: 700;
-                text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
             }
@@ -250,7 +247,6 @@ header {
                 padding: 0 15px;
             }
             .project-category {
-                text-transform: uppercase;
                 font-weight: 600;
                 font-size: 14px;
             }
@@ -308,7 +304,6 @@ header {
     border: none;
     border-radius: 300px;
     font-weight: 700;
-    text-transform: uppercase;
 }
 
 .btn-xl {
